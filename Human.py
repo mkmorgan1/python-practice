@@ -9,7 +9,7 @@ class Human():
     def link_children(self, child):
         child.parents.append(self)
 
-    def __init__(self, input_name=name, input_age=age):
+    def __init__(self, input_name=name, input_age=age, ):
         self.children = []
         self.parents = []
         self.name = input_name
