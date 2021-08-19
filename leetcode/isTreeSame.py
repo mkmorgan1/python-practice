@@ -23,6 +23,7 @@ class Solution:
                 else:
                     arr += "null"
                 return arr
+
         x = gatherVals(p)
         y = gatherVals(q)
 
