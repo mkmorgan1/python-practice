@@ -1,5 +1,6 @@
 adding the env folder: python3 -m venv env
 installing flask: python -m pip install flask
 running flask: python3 -m flask run
+development mode: export FLASK_ENV=development
 
 cleaning up code: black file-name
